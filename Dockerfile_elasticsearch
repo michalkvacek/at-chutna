@@ -1,0 +1,7 @@
+FROM docker.elastic.co/elasticsearch/elasticsearch:6.7.0
+
+RUN elasticsearch-plugin install analysis-icu
+
+COPY --chown=elasticsearch:elasticsearch daily_menu/config/elasticsearch/hunspell /usr/share/elasticsearch/config/hunspell
+
+EXPOSE 9200

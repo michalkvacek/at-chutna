@@ -1,0 +1,21 @@
+DEBUG = True
+SECRET_KEY = 'superSecretK3y'
+
+POSTGRESQL_DATABASE = ''
+POSTGRESQL_SERVER = "localhost"
+POSTGRESQL_USER = "postgres"
+POSTGRESQL_PASSWORD = "postgres"
+
+ELASTICSEARCH_HOST = "localhost" #"elasticsearch"
+ELASTICSEARCH_PORT = 9200
+
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+
+ZOMATO_CLIENT_ID = "ABCDEF"
+
+EMAIL_HOST = ""
+EMAIL_PORT = 587
+EMAIL_USER = ""
+EMAIL_PASSWORD = ""
+EMAIL_TLS = True
+EMAIL_SSL = False
